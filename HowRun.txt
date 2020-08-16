@@ -1,0 +1,15 @@
+Per giocare devi prima attrezzarti per compilare il gioco
+
+1. Scarica ncurses:
+
+	sudo apt-get install libncurses5-dev
+
+
+2. Compila nella stessa cartella (!!!) tutti i file .cpp
+
+	g++ *.cpp -o Spaze -lncurses
+
+
+3. Gioca!
+
+	./Spaze 
